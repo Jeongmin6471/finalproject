@@ -23,6 +23,7 @@
   background-color: rgb(154, 203, 226);
   float: left;
   text-align: center;
+  color:gray;
 }
 
 #home-contents {
@@ -111,4 +112,14 @@
   position: absolute;
   left: 800px;
   top: 150px;
+}
+
+#p1 {
+  font-size:30px;
+  margin-top: 20px;
+}
+
+#h2 {
+  font-size: 40px;
+  margin-top: 90px;
 }
