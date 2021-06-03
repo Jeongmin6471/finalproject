@@ -34,8 +34,23 @@
 
     <aside id ="right-sidebar">
       <div id= left-sidebar-text>
-        <h1 id="clock" style="color:gray;">01:08</h1>
-        <h2>Main</h2>
+        <p>현재시각</ㅔ>
+        <p>
+          <span id ="current" class="display"></span>
+        </p>
+
+        <script>
+          setInterval(displayNow, 1000);
+      
+          function displayNow()
+          { 
+            var now = new Date();   
+            var currentTime = now.toLocaleTimeString();        
+            document.querySelector("#current").innerHTML = currentTime; 
+          }
+          
+        </script>
+        
       </div>
     </aside>
 
